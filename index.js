@@ -3,6 +3,7 @@ const Commando = require('discord.js-commando');
 const fs = require('fs');
 const path = require('path');
 const config = require('./config/config.js');
+const mcu = require('./config/mcu.js');
 const ignored = JSON.parse(fs.readFileSync('./config/ignored.json', 'utf-8'));
 const token = config.token;
 const client = new Commando.Client({
@@ -33,6 +34,7 @@ client.registry
     .registerCommandsIn(path.join(__dirname, 'commands'));
 client.config = config;
 client.ignored = ignored;
+client.mcu = mcu;
 
 function readEvents() {
     fs.readdir('./events/', (err, files) => {
