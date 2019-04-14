@@ -1,0 +1,29 @@
+{
+  "name": "vincent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jprogers017@dev.azure.com/jprogers017/Vincent/_git/Vincent"
+  },
+  "author": "Josephine Rogers",
+  "license": "ISC",
+  "dependencies": {
+    "console-read-write": "^0.1.1",
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "fs": "0.0.1-security",
+    "mathjs": "^5.9.0",
+    "moment": "^2.24.0",
+    "ms": "^2.1.1",
+    "nodemon": "^1.18.11",
+    "one-liner-joke": "^1.2.0",
+    "path": "^0.12.7",
+    "pm2": "^3.5.0"
+  },
+  "devDependencies": {}
+}
